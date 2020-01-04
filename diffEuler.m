@@ -5,6 +5,4 @@ function [x, y] = diffEuler(f, a, b, y0, n)
     for i = 1:n 
         y(i+1) = y(i) + h .* f(x(i), y(i));
     end
-    
-    
 end
